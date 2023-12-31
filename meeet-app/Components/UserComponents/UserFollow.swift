@@ -8,11 +8,30 @@
 import SwiftUI
 
 struct UserFollow: View {
+    
+    let user: User
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack(alignment: .center, spacing: 34, content: {
+            Text("\(user.followers) ")
+                .font(.system(size: 16, design: .rounded))
+                .foregroundStyle(.black)
+            +
+            Text("followers")
+                .font(.system(size: 16, design: .rounded))
+                .foregroundStyle(.gray)
+            
+            Text("\(user.following) ")
+                .font(.system(size: 16, design: .rounded))
+                .foregroundStyle(.black)
+            +
+            Text("followings")
+                .font(.system(size: 16, design: .rounded))
+                .foregroundStyle(.gray)
+        })
     }
 }
 
 #Preview {
-    UserFollow()
+    UserFollow(user: .dummyData)
 }

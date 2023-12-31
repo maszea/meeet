@@ -6,13 +6,10 @@
 //
 
 import SwiftUI
+import Foundation
 
-struct Font_Ext: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+extension Font {
+    static func recolettaBold(fontSize: CGFloat) -> Font {
+        return .custom("RecoletaAlt-Bold", size: fontSize)
     }
-}
-
-#Preview {
-    Font_Ext()
 }

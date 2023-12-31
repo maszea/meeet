@@ -13,7 +13,12 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
+            
+            Text("Rounded")
+                .font(.system(.largeTitle, design: .rounded))
+                
             Text("Hello, world!")
+                .font(.recolettaBold(fontSize: 43))
         }
         .padding()
     }

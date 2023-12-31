@@ -8,11 +8,46 @@
 import SwiftUI
 
 struct UsernameView: View {
+    
+    @Environment(\.presentationMode) var presentationMode
+    
+    let user: User
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack(content: {
+            Image(user.avatar ?? "avatar-1")
+                .resizable()
+                .frame(width: 74, height: 74)
+                .clipShape(
+                    RoundedRectangle(cornerRadius: 24, style: /*@START_MENU_TOKEN@*/.continuous/*@END_MENU_TOKEN@*/)
+                )
+            
+            VStack(alignment: .leading, spacing: 6) {
+                Text(user.name)
+                    .font(.system(size: 20, design: .rounded))
+                    .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                
+                Text(user.tag)
+                    .font(.system(size: 16, design: .rounded))
+                    .fontWeight(.regular)
+                    .fontWeight(.light)
+                    .foregroundStyle(.gray)
+            }
+            .padding()
+            
+            Spacer()
+            
+            Button(action: {self.presentationMode.wrappedValue.dismiss()} ) {
+                Image(systemName: "xmark.circle.fill")
+                    .resizable()
+                    .frame(width: 34, height: 34)
+                    .foregroundColor(.slate300)
+            }
+
+        })
     }
 }
 
 #Preview {
-    UsernameView()
+    UsernameView(user: .dummyData)
 }

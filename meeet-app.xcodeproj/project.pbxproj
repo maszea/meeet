@@ -7,18 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9977269B2B4107BF00EE12B8 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9977269A2B4107BF00EE12B8 /* AvatarView.swift */; };
+		9977269D2B41096A00EE12B8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9977269C2B41096A00EE12B8 /* User.swift */; };
+		997726A02B410F9800EE12B8 /* UsersScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9977269F2B410F9800EE12B8 /* UsersScreen.swift */; };
+		997726A22B410FA800EE12B8 /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997726A12B410FA800EE12B8 /* UsersViewModel.swift */; };
+		997726A52B41239500EE12B8 /* UsernameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997726A42B41239500EE12B8 /* UsernameView.swift */; };
+		997726A72B41250B00EE12B8 /* UserFollow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997726A62B41250B00EE12B8 /* UserFollow.swift */; };
+		997726A92B41256F00EE12B8 /* User+DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997726A82B41256F00EE12B8 /* User+DummyData.swift */; };
+		997726AB2B41285700EE12B8 /* UserModalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997726AA2B41285700EE12B8 /* UserModalScreen.swift */; };
+		997726AD2B413ABF00EE12B8 /* UserMutualsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997726AC2B413ABF00EE12B8 /* UserMutualsView.swift */; };
 		99A042C42B3EC4AC00008784 /* meeet_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A042C32B3EC4AC00008784 /* meeet_appApp.swift */; };
 		99A042C62B3EC4AC00008784 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A042C52B3EC4AC00008784 /* ContentView.swift */; };
 		99A042C82B3EC4AD00008784 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99A042C72B3EC4AD00008784 /* Assets.xcassets */; };
 		99A042CB2B3EC4AD00008784 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99A042CA2B3EC4AD00008784 /* Preview Assets.xcassets */; };
+		99A042D92B3EC7D900008784 /* RecoletaAlt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99A042D82B3EC7D900008784 /* RecoletaAlt-Bold.ttf */; };
+		99A042DD2B3ED31000008784 /* Font+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A042DC2B3ED31000008784 /* Font+Ext.swift */; };
+		99A042DF2B3ED39B00008784 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A042DE2B3ED39B00008784 /* Color+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9977269A2B4107BF00EE12B8 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		9977269C2B41096A00EE12B8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9977269F2B410F9800EE12B8 /* UsersScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersScreen.swift; sourceTree = "<group>"; };
+		997726A12B410FA800EE12B8 /* UsersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
+		997726A42B41239500EE12B8 /* UsernameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameView.swift; sourceTree = "<group>"; };
+		997726A62B41250B00EE12B8 /* UserFollow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFollow.swift; sourceTree = "<group>"; };
+		997726A82B41256F00EE12B8 /* User+DummyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+DummyData.swift"; sourceTree = "<group>"; };
+		997726AA2B41285700EE12B8 /* UserModalScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModalScreen.swift; sourceTree = "<group>"; };
+		997726AC2B413ABF00EE12B8 /* UserMutualsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMutualsView.swift; sourceTree = "<group>"; };
 		99A042C02B3EC4AC00008784 /* meeet-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "meeet-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99A042C32B3EC4AC00008784 /* meeet_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meeet_appApp.swift; sourceTree = "<group>"; };
 		99A042C52B3EC4AC00008784 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		99A042C72B3EC4AD00008784 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99A042CA2B3EC4AD00008784 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		99A042D82B3EC7D900008784 /* RecoletaAlt-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RecoletaAlt-Bold.ttf"; sourceTree = "<group>"; };
+		99A042DC2B3ED31000008784 /* Font+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Ext.swift"; sourceTree = "<group>"; };
+		99A042DE2B3ED39B00008784 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		99A042E02B3ED62D00008784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +57,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9977269E2B410F7B00EE12B8 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				9977269F2B410F9800EE12B8 /* UsersScreen.swift */,
+				997726A12B410FA800EE12B8 /* UsersViewModel.swift */,
+				997726AA2B41285700EE12B8 /* UserModalScreen.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		997726A32B41235F00EE12B8 /* UserComponents */ = {
+			isa = PBXGroup;
+			children = (
+				9977269A2B4107BF00EE12B8 /* AvatarView.swift */,
+				997726A42B41239500EE12B8 /* UsernameView.swift */,
+				997726A62B41250B00EE12B8 /* UserFollow.swift */,
+				997726AC2B413ABF00EE12B8 /* UserMutualsView.swift */,
+			);
+			path = UserComponents;
+			sourceTree = "<group>";
+		};
 		99A042B72B3EC4AC00008784 = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +97,16 @@
 		99A042C22B3EC4AC00008784 /* meeet-app */ = {
 			isa = PBXGroup;
 			children = (
-				99A042C32B3EC4AC00008784 /* meeet_appApp.swift */,
+				99A042E02B3ED62D00008784 /* Info.plist */,
 				99A042C52B3EC4AC00008784 /* ContentView.swift */,
+				99A042C32B3EC4AC00008784 /* meeet_appApp.swift */,
 				99A042C72B3EC4AD00008784 /* Assets.xcassets */,
+				99A042D12B3EC64000008784 /* Components */,
+				99A042D42B3EC67500008784 /* DesignSystems */,
+				99A042D52B3EC68A00008784 /* Fonts */,
+				99A042D22B3EC64900008784 /* Model */,
 				99A042C92B3EC4AD00008784 /* Preview Content */,
+				99A042D32B3EC66C00008784 /* Screens */,
 			);
 			path = "meeet-app";
 			sourceTree = "<group>";
@@ -63,8 +115,50 @@
 			isa = PBXGroup;
 			children = (
 				99A042CA2B3EC4AD00008784 /* Preview Assets.xcassets */,
+				997726A82B41256F00EE12B8 /* User+DummyData.swift */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		99A042D12B3EC64000008784 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				997726A32B41235F00EE12B8 /* UserComponents */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		99A042D22B3EC64900008784 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9977269C2B41096A00EE12B8 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		99A042D32B3EC66C00008784 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				9977269E2B410F7B00EE12B8 /* Users */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		99A042D42B3EC67500008784 /* DesignSystems */ = {
+			isa = PBXGroup;
+			children = (
+				99A042DC2B3ED31000008784 /* Font+Ext.swift */,
+				99A042DE2B3ED39B00008784 /* Color+Ext.swift */,
+			);
+			path = DesignSystems;
+			sourceTree = "<group>";
+		};
+		99A042D52B3EC68A00008784 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				99A042D82B3EC7D900008784 /* RecoletaAlt-Bold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99A042CB2B3EC4AD00008784 /* Preview Assets.xcassets in Resources */,
+				99A042D92B3EC7D900008784 /* RecoletaAlt-Bold.ttf in Resources */,
 				99A042C82B3EC4AD00008784 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +232,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				997726AB2B41285700EE12B8 /* UserModalScreen.swift in Sources */,
+				997726A52B41239500EE12B8 /* UsernameView.swift in Sources */,
 				99A042C62B3EC4AC00008784 /* ContentView.swift in Sources */,
+				997726A92B41256F00EE12B8 /* User+DummyData.swift in Sources */,
+				997726AD2B413ABF00EE12B8 /* UserMutualsView.swift in Sources */,
+				99A042DF2B3ED39B00008784 /* Color+Ext.swift in Sources */,
+				9977269D2B41096A00EE12B8 /* User.swift in Sources */,
+				997726A02B410F9800EE12B8 /* UsersScreen.swift in Sources */,
 				99A042C42B3EC4AC00008784 /* meeet_appApp.swift in Sources */,
+				997726A22B410FA800EE12B8 /* UsersViewModel.swift in Sources */,
+				9977269B2B4107BF00EE12B8 /* AvatarView.swift in Sources */,
+				99A042DD2B3ED31000008784 /* Font+Ext.swift in Sources */,
+				997726A72B41250B00EE12B8 /* UserFollow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +381,7 @@
 				DEVELOPMENT_TEAM = 8779RY6ZN8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "meeet-app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +411,7 @@
 				DEVELOPMENT_TEAM = 8779RY6ZN8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "meeet-app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

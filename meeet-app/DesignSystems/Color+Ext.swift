@@ -6,13 +6,23 @@
 //
 
 import SwiftUI
+import Foundation
 
-struct Color_Ext: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-#Preview {
-    Color_Ext()
+extension Color {
+    // ORANGES
+    static let orange_50 = Color("Orange-50")
+    static let orange_100 = Color("Orange-100")
+    static let orange_200 = Color("Orange-200")
+    static let orange_300 = Color("Orange-300")
+    static let orange_400 = Color("Orange-400")
+    static let orange_500 = Color("Orange-500")
+    static let orange_600 = Color("Orange-600")
+    static let orange_700 = Color("Orange-700")
+    static let orange_800 = Color("Orange-800")
+    static let orange_900 = Color("Orange-900")
+    
+    // SLATES
+    static let slate_100 = Color("Slate-100")
+    static let slate_200 = Color("Slate-200")
+    static let slate_300 = Color("Slate-300")
 }
