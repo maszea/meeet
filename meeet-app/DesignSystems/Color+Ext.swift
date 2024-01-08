@@ -25,4 +25,6 @@ extension Color {
     static let slate_100 = Color("Slate-100")
     static let slate_200 = Color("Slate-200")
     static let slate_300 = Color("Slate-300")
+    static let slate_400 = Color("Slate-400")
+    static let slate_500 = Color("Slate-500")
 }

@@ -29,7 +29,7 @@ struct UserModalScreen: View {
             Divider()
             
             Text(user.about ?? "nil")
-                .font(.system(size: 16, design: .rounded))
+                .font(.system(size: 18, design: .rounded))
                 .lineSpacing(6)
             
             Spacer()
@@ -39,7 +39,7 @@ struct UserModalScreen: View {
 
                 } label: {
                     Text("Send message")
-                        .font(.system(size: 16, design: .rounded))
+                        .font(.system(size: 18, design: .rounded))
                         .foregroundStyle(.white)
                         .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                         .frame(maxWidth: .infinity, minHeight: 54)
@@ -59,7 +59,7 @@ struct UserModalScreen: View {
 
                 } label: {
                     Text("View profile")
-                        .font(.system(size: 16, design: .rounded))
+                        .font(.system(size: 18, design: .rounded))
                         .foregroundStyle(.black)
                         .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                         .frame(maxWidth: .infinity, minHeight: 54)

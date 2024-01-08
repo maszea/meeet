@@ -14,19 +14,19 @@ struct UserFollow: View {
     var body: some View {
         HStack(alignment: .center, spacing: 34, content: {
             Text("\(user.followers) ")
-                .font(.system(size: 16, design: .rounded))
+                .font(.system(size: 18, design: .rounded))
                 .foregroundStyle(.black)
             +
             Text("followers")
-                .font(.system(size: 16, design: .rounded))
+                .font(.system(size: 18, design: .rounded))
                 .foregroundStyle(.gray)
             
             Text("\(user.following) ")
-                .font(.system(size: 16, design: .rounded))
+                .font(.system(size: 18, design: .rounded))
                 .foregroundStyle(.black)
             +
             Text("followings")
-                .font(.system(size: 16, design: .rounded))
+                .font(.system(size: 18, design: .rounded))
                 .foregroundStyle(.gray)
         })
     }

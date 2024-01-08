@@ -24,11 +24,11 @@ struct UsernameView: View {
             
             VStack(alignment: .leading, spacing: 6) {
                 Text(user.name)
-                    .font(.system(size: 20, design: .rounded))
+                    .font(.system(size: 24, design: .rounded))
                     .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                 
                 Text(user.tag)
-                    .font(.system(size: 16, design: .rounded))
+                    .font(.system(size: 18, design: .rounded))
                     .fontWeight(.regular)
                     .fontWeight(.light)
                     .foregroundStyle(.gray)

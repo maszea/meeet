@@ -22,7 +22,7 @@ struct AvatarView: View {
                     ))
             
             Text(user.name)
-                .font(.system(size: 16, design: .rounded))
+                .font(.system(size: 18, design: .rounded))
                 .foregroundColor(.black)
         })
     }
