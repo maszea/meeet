@@ -26,6 +26,7 @@
 		99A042D92B3EC7D900008784 /* RecoletaAlt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99A042D82B3EC7D900008784 /* RecoletaAlt-Bold.ttf */; };
 		99A042DD2B3ED31000008784 /* Font+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A042DC2B3ED31000008784 /* Font+Ext.swift */; };
 		99A042DF2B3ED39B00008784 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A042DE2B3ED39B00008784 /* Color+Ext.swift */; };
+		99B304CA2B4D3223005C0C07 /* UserListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B304C92B4D3223005C0C07 /* UserListItemView.swift */; };
 		99BBB3802B441B8B0010B755 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BBB37F2B441B8B0010B755 /* HomeScreen.swift */; };
 		99CC67F82B45542000B11F1F /* BannerSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CC67F72B45542000B11F1F /* BannerSliderView.swift */; };
 /* End PBXBuildFile section */
@@ -52,6 +53,7 @@
 		99A042DC2B3ED31000008784 /* Font+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Ext.swift"; sourceTree = "<group>"; };
 		99A042DE2B3ED39B00008784 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 		99A042E02B3ED62D00008784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		99B304C92B4D3223005C0C07 /* UserListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListItemView.swift; sourceTree = "<group>"; };
 		99BBB37F2B441B8B0010B755 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		99CC67F72B45542000B11F1F /* BannerSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerSliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,6 +132,7 @@
 				9963B9642B4BD6F1004AC450 /* TopMenuView.swift */,
 				9963B9662B4BF992004AC450 /* StoryView.swift */,
 				9963B9682B4BFC23004AC450 /* StoriesView.swift */,
+				99B304C92B4D3223005C0C07 /* UserListItemView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				99A042C42B3EC4AC00008784 /* meeet_appApp.swift in Sources */,
 				997726A22B410FA800EE12B8 /* UsersViewModel.swift in Sources */,
 				99CC67F82B45542000B11F1F /* BannerSliderView.swift in Sources */,
+				99B304CA2B4D3223005C0C07 /* UserListItemView.swift in Sources */,
 				9977269B2B4107BF00EE12B8 /* AvatarView.swift in Sources */,
 				99A042DD2B3ED31000008784 /* Font+Ext.swift in Sources */,
 				997726A72B41250B00EE12B8 /* UserFollow.swift in Sources */,

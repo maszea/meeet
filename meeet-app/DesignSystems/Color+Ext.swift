@@ -22,6 +22,7 @@ extension Color {
     static let orange_900 = Color("Orange-900")
     
     // SLATES
+    static let slate_50 = Color("Slate-50")
     static let slate_100 = Color("Slate-100")
     static let slate_200 = Color("Slate-200")
     static let slate_300 = Color("Slate-300")

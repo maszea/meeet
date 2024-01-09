@@ -20,29 +20,29 @@ struct UsersScreen: View {
     
     var body: some View {
         
-        HStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 4, content: {
-            Image(systemName: "arrowshape.backward.circle.fill")
-                .resizable()
-                .frame(width: 34, height: 34)
-                .foregroundColor(.slate300)
-                .padding(.leading, 16)
-            
-            Spacer()
-            
-            Text("meeet")
-                .font(.recolettaBold(fontSize: 34)) +
-            Text(".")
-                .font(.recolettaBold(fontSize: 34))
-                .foregroundColor(.orange600)
-            
-            Spacer()
-            
-            Image(systemName: "plus.circle.fill")
-                .resizable()
-                .frame(width: 34, height: 34)
-                .foregroundColor(.slate300)
-                .padding(.trailing, 16)
-        })
+//        HStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 4, content: {
+//            Image(systemName: "arrowshape.backward.circle.fill")
+//                .resizable()
+//                .frame(width: 34, height: 34)
+//                .foregroundColor(.slate300)
+//                .padding(.leading, 16)
+//            
+//            Spacer()
+//            
+//            Text("meeet")
+//                .font(.recolettaBold(fontSize: 34)) +
+//            Text(".")
+//                .font(.recolettaBold(fontSize: 34))
+//                .foregroundColor(.orange600)
+//            
+//            Spacer()
+//            
+//            Image(systemName: "plus.circle.fill")
+//                .resizable()
+//                .frame(width: 34, height: 34)
+//                .foregroundColor(.slate300)
+//                .padding(.trailing, 16)
+//        })
         
         NavigationView() {
             ScrollView(showsIndicators: false, content: {
@@ -64,6 +64,7 @@ struct UsersScreen: View {
             })
             .padding(6)
         }
+        .navigationTitle("Around you")
     }
 }
 

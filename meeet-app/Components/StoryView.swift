@@ -14,9 +14,8 @@ struct StoryView: View {
     var body: some View {
         Image(title)
             .resizable()
-            .scaledToFit()
-            .frame(width: 94)
-            .clipShape(RoundedRectangle(cornerRadius: 24, style: /*@START_MENU_TOKEN@*/.continuous/*@END_MENU_TOKEN@*/))
+            .frame(width: 94, height: 134)
+            .clipShape(RoundedRectangle(cornerRadius: 14, style: /*@START_MENU_TOKEN@*/.continuous/*@END_MENU_TOKEN@*/))
     }
 }
 
