@@ -11,7 +11,12 @@ struct UserListItemView: View {
     
     let user: User
     
+    @State private var isChatted = false
+    @State private var isAdded = false
+
+    
     var body: some View {
+        
         HStack(alignment: .center, spacing: 14) {
             Image(user.avatar ?? "avatar-1")
                 .resizable()
@@ -34,16 +39,26 @@ struct UserListItemView: View {
             
             Spacer()
             
-            Image(systemName: "plus.app.fill")
-                .resizable()
-                .frame(width: 38, height: 38)
-                .foregroundColor(Color.slate300)
+            Button {
+                isAdded.toggle()
+            } label: {
+                Image(systemName: isAdded ? "checkmark.square.fill" : "plus.app.fill")
+                    .resizable()
+                    .frame(width: 38, height: 38)
+                    .foregroundColor(isAdded ? Color.blue : Color.slate300)
+            }
+            .symbolEffect(.bounce, value: isAdded)
             
-            Image(systemName: "bubble.left.and.bubble.right.fill")
-                .resizable()
-                .frame(width: 38, height: 38)
-                .foregroundColor(Color.slate300)
-                .padding(.leading, 8)
+            Button {
+                isChatted.toggle()
+            } label: {
+                Image(systemName: "bubble.left.and.bubble.right.fill")
+                    .resizable()
+                    .frame(width: 38, height: 38)
+                    .foregroundColor(Color.slate300)
+                    .padding(.leading, 8)
+            }
+            .symbolEffect(.bounce, value: isChatted)
         }
     }
 }

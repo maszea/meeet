@@ -11,6 +11,7 @@ struct UsersScreen: View {
     
     @ObservedObject var viewModel = UsersViewModel()
     @State private var selectedItem: User?
+    @State private var search: String = ""
     
     let usersColumns: [GridItem] = [
         GridItem(.flexible(), spacing: 2, alignment: .center),
@@ -46,21 +47,29 @@ struct UsersScreen: View {
         
         NavigationView() {
             ScrollView(showsIndicators: false, content: {
-                LazyVGrid(columns: usersColumns, spacing: 24 , content: {
-                    ForEach(viewModel.users, id: \.id) { item in
-                        Button() {
-                            self.selectedItem = item
-                        } label: {
-                            AvatarView(user: item)
+                LazyVStack(alignment: .center, spacing: 24) {
+                    TextField("Search friend", text: $search)
+                        .padding(8)
+                        .background(Color.slate100)
+                        .clipShape(RoundedRectangle(cornerRadius: 8, style: .continuous))
+                        .padding(4)
+                    
+                    LazyVGrid(columns: usersColumns, spacing: 24 , content: {
+                        ForEach(viewModel.users, id: \.id) { item in
+                            Button() {
+                                self.selectedItem = item
+                            } label: {
+                                AvatarView(user: item)
+                            }
+                            .sheet(item: $selectedItem) { item in
+                                UserModalScreen(user: item)
+                                    .presentationDetents([.fraction(0.65), .large])
+                                    .presentationDragIndicator(.visible)
+                                    .presentationCornerRadius(24)
+                            }
                         }
-                        .sheet(item: $selectedItem) { item in
-                            UserModalScreen(user: item)
-                                .presentationDetents([.fraction(0.65), .large])
-                                .presentationDragIndicator(.visible)
-                                .presentationCornerRadius(24)
-                        }
-                    }
-                })
+                    })
+                }
             })
             .padding(6)
         }

@@ -11,7 +11,7 @@ class UsersViewModel: ObservableObject {
     @Published var users: [User] = [
         User(
             id: 01,
-            name: "Alzea",
+            name: "Alzea Arafat",
             avatar: "avatar-1",
             tag: "@alzea",
             about: """

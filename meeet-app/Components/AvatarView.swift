@@ -16,6 +16,7 @@ struct AvatarView: View {
             Image(user.avatar ?? "avatar-1")
                 .resizable()
                 .frame(width: 114, height: 114)
+                .overlay(RoundedRectangle(cornerRadius: 34, style: /*@START_MENU_TOKEN@*/.continuous/*@END_MENU_TOKEN@*/).stroke(Color.slate200, lineWidth: 2))
                 .clipShape(
                     RoundedRectangle(
                         cornerRadius: 34, style: .continuous
